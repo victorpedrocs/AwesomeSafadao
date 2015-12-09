@@ -1,3 +1,7 @@
+//
+// author: @vpcsilva
+//
+
 #include <stdio.h>
 
 int somatorio(int mes) {
