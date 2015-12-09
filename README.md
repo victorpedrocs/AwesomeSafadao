@@ -1,6 +1,6 @@
-# AwesomeSadafao
+# Awesome Safadão
 
-O objetivo deste repositório é unir a comunidade de desenvolvedores brasileiros no propósito de implementar o cálculod e safadeza na maior quantidade de linguagens diferentes possíveis.
+O objetivo deste repositório é unir a comunidade de desenvolvedores brasileiros no propósito de implementar o cálculo de safadeza na maior quantidade de linguagens diferentes possíveis.
 
 ![Wesley Safadão]( http://www.folhavitoria.com.br/entretenimento/blogs/na-balada/wp-content/uploads/2015/12/Wesley-Safad%C3%A3o.png )
 
@@ -12,6 +12,7 @@ No mês de Dezembro de 2015, um professor de programação pediu aos alunos que 
 Inspirados por esta prova, decidimos criar este repositório.
 
 ## Como contribuir?
+* Seu código deve ter os dois métodos: `wesley_safadao` e `somatorio`, além de entrada feita pelo usuário
 * Fork
 * Crie uma nova pasta com o nome da linguagem a ser implementado
 * Pull Request
