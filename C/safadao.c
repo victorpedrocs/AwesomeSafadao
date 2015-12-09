@@ -10,7 +10,7 @@ int somatorio(int mes) {
     return soma;
 }
 
-void wesley_safadao(int dia, int mes, int ano) {
+void wesley_safadao(int dia, int mes, float ano) {
     float safadeza, anjo;
 
     safadeza = somatorio(mes) + (ano/100) * (50-dia);
@@ -20,7 +20,8 @@ void wesley_safadao(int dia, int mes, int ano) {
 }
 
 int main(int argc, char const *argv[]) {
-    int dia = 0, mes = 0, ano = 0;
+    int dia = 0, mes = 0;
+    float ano = 0.0;
 
     printf("Insira sua data de nascimento:\n");
     printf("Dia (dd): ");
@@ -31,7 +32,7 @@ int main(int argc, char const *argv[]) {
     scanf("%d", &mes);
     printf("Ano (AA): ");
     fflush(stdin);
-    scanf("%d", &ano);
+    scanf("%f", &ano);
 
     wesley_safadao(dia, mes, ano);
 
