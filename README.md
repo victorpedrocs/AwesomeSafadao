@@ -12,7 +12,7 @@ No mês de Dezembro de 2015, um professor de programação pediu aos alunos que 
 Inspirados por esta prova, decidimos criar este repositório.
 
 ## Como contribuir?
-* Seu código deve ter os dois métodos: `wesley_safadao` e `somatorio`, além de entrada feita pelo usuário
+* Seu código deve ter os dois métodos: `wesley_safadao(dia, mes, ano)` e `somatorio(mes)`, além de entrada feita pelo usuário
 * Fork
 * Crie uma nova pasta com o nome da linguagem a ser implementado
 * Pull Request
