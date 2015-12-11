@@ -23,16 +23,8 @@ wesley_safadao <- function(dia, mes, ano) {
 
 print("Insira sua data de nascimento\n")
 
-#print("Dia (0-31):")
-#dia <- scan(what=integer(), nmax=31)
 dia <- as.integer(readline("Dia (0-31):"))
-
-#print("Mês (0-12):")
-#mes <- scan(what=integer(), nmax=12)
 mes <- as.integer(readline("Mês (0-12):"))
-
-#print("Ano (00-99):")
-#ano <- scan(what=integer(), nmax=99)
 ano <- as.integer(readline("Ano (00-99):"))
 
 wesley_safadao(dia, mes, ano)
